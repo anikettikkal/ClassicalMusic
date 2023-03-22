@@ -1,0 +1,18 @@
+.landing-img{
+    height:390px;
+}
+.main-div{
+    background-color: whitesmoke;
+}
+.heading{
+    color: green;
+    font-family: sans-serif;
+}
+.lines{
+    color:orange;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.my-element{
+    animation: bounce; 
+    animation-duration: 2s;
+}
