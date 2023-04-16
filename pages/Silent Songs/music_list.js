@@ -36,7 +36,7 @@ const songs = [
     {
         name:"song-6" ,
         title: "Bandeya",
-        artist : "Arjit Singh",
+        artist : "ArjitSingh",
     },
     {
         name:"song-7" ,
