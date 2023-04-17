@@ -10,75 +10,59 @@ const next = document.getElementById("next");
 const songs = [
     {
         name:"song-1" ,
-        title: "Hossana",
-        artist : "A.R.Rahman",
+        title: "Love Ma..",
+        artist : "ArjitSingh",
     },
     {
         name:"song-2" ,
-        title: "Aisa Kyu",
-        artist : "Raghav Chaitanya",
+        title: "Nazam..",
+        artist : "Aayushman",
     },
     {
         name:"song-3" ,
-        title: "Agneepath",
-        artist : "AjayAtul",
+        title: "Feel..🧡",
+        artist : "Atif Aslam",
     },
     {
         name:"song-4" ,
-        title: "Shouq Bada",
-        artist : "Tripti Dimri",
+        title: "Nigh..🎷🎶",
+        artist : "Arjit&..",
     },
     {
         name:"song-5" ,
-        title: "LuppaChuppi",
-        artist : "A.R.Rahman",
+        title: "Janu..",
+        artist : "KishoreKumar",
     },
     {
         name:"song-6" ,
-        title: "Bandeya",
-        artist : "ArjitSingh",
+        title: "KabirSi..",
+        artist : "Sachet Tandon",
     },
     {
         name:"song-7" ,
-        title: "Hawa Sa",
-        artist : "Shaan",
+        title: "Badam",
+        artist : "Bhuwan",
     },
     {
         name:"song-8" ,
-        title: "Bolna",
-        artist : "ArjitSingh",
+        title: "Khalnayak",
+        artist : "Balram",
     },
     {
         name:"song-9" ,
-        title: "Pasoori",
-        artist : "Zulfiqar Khan",
+        title: "Marathi🧡",
+        artist : "KokanSinger",
     },
     {
         name:"song-10" ,
-        title: "Tune Ja..",
-        artist : "Gajendra Varma",
+        title: "FEEL💖",
+        artist : "No One",
     },
     {
         name:"song-11" ,
-        title: "Iktara",
-        artist : "Amit Trivedi",
-    },
-    {
-        name:"song-12" ,
-        title: "Laree",
-        artist : "Wormono",
-    },
-    {
-        name:"song-13" ,
-        title: "Naina",
-        artist : "ArjitSingh",
-    },
-    {
-        name:"song-14" ,
-        title: "Samjhawa",
-        artist : "ArjitSingh",
-    },
-    
+        title: "Mashup💔",
+        artist : "AtifAslam",
+    }, 
 ]
 
 
@@ -113,7 +97,7 @@ play.addEventListener('click', () =>  {
  const loadSong = (songs) => {
     title.textContent = songs.title;
     artist.textContent = songs.artist;
-    music.src = "songs/" + songs.name + ".mp3";
+    music.src = "songs/" + songs.name + ".mp3"; 
     
  };
 
